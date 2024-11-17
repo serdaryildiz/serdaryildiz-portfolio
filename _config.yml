@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Serdar Yıldız"
 description              : &description "Computer Vision Researcher"
 url                      : http://serdaryildiz.github.io
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "http://serdaryildiz.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "serdaryildiz.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -298,18 +298,17 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
-
-# Mimic GitHub Pages with --safe
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
 
 
