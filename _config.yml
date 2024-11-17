@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Serdar YILDIZ"
+title                    : ""
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Serdar Yıldız"
+description              : &description "Computer Vision Researcher"
 url                      : http://serdaryildiz.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "serdaryildiz.github.io"
