@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Serdar Yıldız"
 description              : &description "Computer Vision Researcher"
 url                      : http://serdaryildiz.github.io
-baseurl                  : "http://serdaryildiz.github.io" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "serdaryildiz.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
