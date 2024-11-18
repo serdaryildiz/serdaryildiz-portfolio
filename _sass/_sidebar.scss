@@ -196,7 +196,6 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
-  background-color: $my-theme-color;
 
   li:last-child {
     a {
@@ -226,10 +225,11 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: #fff;
+  background-color: $my-theme-color;
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
+
 
   @include breakpoint($large) {
     display: block;
