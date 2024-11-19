@@ -12,7 +12,7 @@ title                    : "Serdar YILDIZ"
 title_separator          : "-"
 name                     : &name "Serdar Yıldız"
 description              : &description "Computer Vision Researcher"
-url                      : https://serdaryildiz.github.io
+url                      : https://serdaryildiz.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "serdaryildiz.github.io"
 
